@@ -41,13 +41,14 @@ canvas{
 .page{
     height: 100vh !important;
     height: 100vw;
+    position: relative;
 }
 
 .page1{
     background: var(--bgColor);
 }
 .page2{
-    background: blue;
+    background: rgb(41, 41, 64);
 }
 
 #container{
